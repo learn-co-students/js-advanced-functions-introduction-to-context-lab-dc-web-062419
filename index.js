@@ -59,10 +59,10 @@ let calculatePayroll = function(array){
     },0)
 }
 
-function createEmployeeRecords(employees) {
+let createEmployeeRecords = function(employees) {
     return employees.map(employee => createEmployeeRecord(employee));
   }
-function findEmployeebyFirstName(employees, name) {
+let findEmployeebyFirstName = function(employees, name) {
     return employees.find(employee => employee.firstName === name);
   }
 
